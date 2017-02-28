@@ -1,0 +1,88 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		705202B61C6262D300F340D6 /* critter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = critter.cpp; sourceTree = "<group>"; };
+		705202B71C6262D300F340D6 /* critter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = critter.hpp; sourceTree = "<group>"; };
+		705202B81C62631100F340D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		705202B91C65242100F340D6 /* mainpre.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mainpre.cpp; path = prebuild/mainpre.cpp; sourceTree = "<group>"; };
+		705202BA1C652DA100F340D6 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		705202BB1C653DFD00F340D6 /* ant.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ant.cpp; sourceTree = "<group>"; };
+		705202BC1C653DFD00F340D6 /* ant.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ant.hpp; sourceTree = "<group>"; };
+		705202BF1C67312E00F340D6 /* doodleBug.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = doodleBug.cpp; sourceTree = "<group>"; };
+		705202C01C67312E00F340D6 /* doodleBug.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = doodleBug.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		705202AF1C62628200F340D6 = {
+			isa = PBXGroup;
+			children = (
+				705202B71C6262D300F340D6 /* critter.hpp */,
+				705202B61C6262D300F340D6 /* critter.cpp */,
+				705202BF1C67312E00F340D6 /* doodleBug.cpp */,
+				705202C01C67312E00F340D6 /* doodleBug.hpp */,
+				705202BB1C653DFD00F340D6 /* ant.cpp */,
+				705202BC1C653DFD00F340D6 /* ant.hpp */,
+				705202B81C62631100F340D6 /* main.cpp */,
+				705202B91C65242100F340D6 /* mainpre.cpp */,
+				705202BA1C652DA100F340D6 /* Makefile */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		705202B01C62628200F340D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+			};
+			buildConfigurationList = 705202B31C62628200F340D6 /* Build configuration list for PBXProject "Lab5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 705202AF1C62628200F340D6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		705202B41C62628200F340D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		705202B51C62628200F340D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		705202B31C62628200F340D6 /* Build configuration list for PBXProject "Lab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705202B41C62628200F340D6 /* Debug */,
+				705202B51C62628200F340D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 705202B01C62628200F340D6 /* Project object */;
+}
